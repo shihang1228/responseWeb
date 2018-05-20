@@ -1,9 +1,9 @@
 
 @font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1526459513497'); /* IE9*/
-  src: url('iconfont.eot?t=1526459513497#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.ttf?t=1526459513497') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1526459513497#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1526827172728'); /* IE9*/
+  src: url('iconfont.eot?t=1526827172728#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.ttf?t=1526827172728') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1526827172728#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -16,11 +16,17 @@
 
 .icon-dianhua:before { content: "\2301"; }
 
+.icon-555:before { content: "\2307"; }
+
 .icon-666:before { content: "\2302"; }
+
+.icon-social-skype:before { content: "\2308"; }
 
 .icon-pingguo:before { content: "\2303"; }
 
 .icon-twitter:before { content: "\2304"; }
+
+.icon-xiangqingchakan:before { content: "\2306"; }
 
 .icon-youxiang:before { content: "\2305"; }
 

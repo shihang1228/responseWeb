@@ -1,0 +1,450 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>PRODUCT</title>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <!-- Custom Theme files -->
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/iconfont/iconfont.css" rel="stylesheet" type="text/css" media="all" />
+        <!-- Custom Theme files -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="" />
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <!--Google Fonts-->
+        <link href='http://fonts.googleapis.com/css?family=Hind:400,300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Aladin' rel='stylesheet' type='text/css'>
+        <!--google fonts-->
+        <!-- animated-css -->
+        <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+        <script src="js/wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
+        <!-- animated-css -->
+        <script src="js/modernizr.js"></script>
+        <script>
+        $(document).ready(function(){
+        if (Modernizr.touch) {
+        // show the close overlay button
+        $(".close-overlay").removeClass("hidden");
+        // handle the adding of hover class when clicked
+        $(".branch-gd").click(function(e){
+        if (!$(this).hasClass("hover")) {
+        $(this).addClass("hover");
+        }
+        });
+        // handle the closing of the overlay
+        $(".close-overlay").click(function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        if ($(this).closest(".branch-gd").hasClass("hover")) {
+        $(this).closest(".branch-gd").removeClass("hover");
+        }
+        });
+        } else {
+        // handle the mouseenter functionality
+        $(".branch-gd").mouseenter(function(){
+        $(this).addClass("hover");
+        })
+        // handle the mouseleave functionality
+        .mouseleave(function(){
+        $(this).removeClass("hover");
+        });
+        }
+        });
+        </script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!--header-top start here-->
+        <div class="top-header">
+            <div class="container">
+                <div class="top-header-main">
+                    <div class="col-md-8 header-address wow bounceInLeft" data-wow-delay="0.3s">
+                        <ul>
+                            <li><span class="phone"><i class="iconfont">&#x2301;</i></span> <h6>(86) 029-85451431</h6></li>
+                            <li><span class="email"><i class="iconfont">&#x2305;</i></span><h6><a href="mailto:info@example.com">info@ace-climatic.com</a></h6></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 top-social wow bounceInRight" data-wow-delay="0.3s">
+                        <ul>
+                            <li><h5>Meet Us On :</h5></li>
+                            <li><a href="#"><span class="fb"><i class="iconfont">&#x2302;</i></span></a></li>
+                            <li><a href="#"><span class="tw"><i class="iconfont">&#x2304;</i></span></a></li>
+                            <li><a href="#"><span class="in"><i class="iconfont">&#x2307;</i></span></a></li>
+                            <li><a href="#"><span class="gmail"><i class="iconfont">&#x2303;</i></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <!--header-top end here-->
+        <!--header start here-->
+        <!-- NAVBAR
+        ================================================== -->
+        <div class="header">
+            <div class="fixed-header">
+                <div class="navbar-wrapper">
+                    <div class="container">
+                        <nav class="navbar navbar-inverse navbar-static-top">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                </button>
+                                <div class="logo wow slideInLeft" data-wow-delay="0.3s">
+                                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" /></a>
+                                </div>
+                            </div>
+                            <div id="navbar" class="navbar-collapse collapse">
+                                <nav class="cl-effect-16" id="cl-effect-16">
+                                    <ul class="nav navbar-nav">
+                                        <li><a href="index.html" data-hover="Home">Home</a></li>
+                                        <li><a href="about.html" data-hover="ABOUT US">ABOUT US</a></li>
+                                        <li><a href="services.html" data-hover="NEWS">NEWS</a></li>
+                                        <li><a class="active" href="prodlist.html" data-hover="PRODUCT">PRODUCTS</a></li>
+                                        <li><a href="shortcodes.html" data-hover="SERVICE">SERVICE</a></li>
+                                        <li><a href="contact.html" data-hover="CONTACT US">CONTACT US</a></li>
+                                        <li><a href="contact.html" data-hover="Request a Quote" class="link-spec">Request a Quote</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="clearfix"></div>
+                        </nav>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <!--header end here-->
+        <!--banner  start hwew-->
+        <div class="prod-banner">
+            <div class="container">
+                <div class="banner-main wow zoomIn" data-wow-delay="0.3s">
+                    <h2>PRODUCTS</h2>
+                </div>
+            </div>
+        </div>
+        <!--BANNER END HERE-->
+
+        <!--product start here-->
+        <div class="information">
+            <div class="container">
+                <ul class="prod-nav">
+                    <li class="active"><a href="">Humidity Test Chambers</a></li>
+                    <li><a href="">Fast Change Roate Chambers</a></li>
+                    <li><a href="">Thermal Shock Chambers</a></li>
+                    <div class="clearfix"> </div>
+                </ul>
+                <div class="information-main">
+                    <div class="information-grid five-star wow prod-item-wrap">
+                        <div class="col-md-3 col-lg-3 col-sm-6 hotel-info">
+                            <div class="prod-item">
+                                <a href="" class="block">
+                                    <div class="info-top">
+                                        <img src="images/img-prod1.png" alt="">
+                                    </div>
+                                    <div class="info-bottom">
+                                        <h4>Humidity Test Chambers</h4>
+                                        <div class="word-wrap-line5">Awesome responsive template is provided by templatemo website.This is Bootstrap V3.3.2 layout built on HTML5 Css3. You can use this for any purpose.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-sm-6 hotel-info">
+                            <div class="prod-item">
+                                <a href="" class="block">
+                                    <div class="info-top">
+                                        <img src="images/img-prod1.png" alt="">
+                                    </div>
+                                    <div class="info-bottom">
+                                        <h4>Humidity Test Chambers</h4>
+                                        <div class="word-wrap-line5">Awesome responsive template is provided by templatemo website.This is Bootstrap V3.3.2 layout built on HTML5 Css3. You can use this for any purpose.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-sm-6 hotel-info">
+                            <div class="prod-item">
+                                <a href="" class="block">
+                                    <div class="info-top">
+                                        <img src="images/img-prod1.png" alt="">
+                                    </div>
+                                    <div class="info-bottom">
+                                        <h4>Humidity Test Chambers</h4>
+                                        <div class="word-wrap-line5">Awesome responsive template is provided by templatemo website.This is Bootstrap V3.3.2 layout built on HTML5 Css3. You can use this for any purpose.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-sm-6 hotel-info">
+                            <div class="prod-item">
+                                <a href="" class="block">
+                                    <div class="info-top">
+                                        <img src="images/img-prod1.png" alt="">
+                                    </div>
+                                    <div class="info-bottom">
+                                        <h4>Humidity Test Chambers</h4>
+                                        <div class="word-wrap-line5">Awesome responsive template is provided by templatemo website.This is Bootstrap V3.3.2 layout built on HTML5 Css3. You can use this for any purpose.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-sm-6 hotel-info">
+                            <div class="prod-item">
+                                <a href="" class="block">
+                                    <div class="info-top">
+                                        <img src="images/img-prod1.png" alt="">
+                                    </div>
+                                    <div class="info-bottom">
+                                        <h4>Humidity Test Chambers</h4>
+                                        <div class="word-wrap-line5">Awesome responsive template is provided by templatemo website.This is Bootstrap V3.3.2 layout built on HTML5 Css3. You can use this for any purpose.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-sm-6 hotel-info">
+                            <div class="prod-item">
+                                <a href="" class="block">
+                                    <div class="info-top">
+                                        <img src="images/img-prod1.png" alt="">
+                                    </div>
+                                    <div class="info-bottom">
+                                        <h4>Humidity Test Chambers</h4>
+                                        <div class="word-wrap-line5">Awesome responsive template is provided by templatemo website.This is Bootstrap V3.3.2 layout built on HTML5 Css3. You can use this for any purpose.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-sm-6 hotel-info">
+                            <div class="prod-item">
+                                <a href="" class="block">
+                                    <div class="info-top">
+                                        <img src="images/img-prod1.png" alt="">
+                                    </div>
+                                    <div class="info-bottom">
+                                        <h4>Humidity Test Chambers</h4>
+                                        <div class="word-wrap-line5">Awesome responsive template is provided by templatemo website.This is Bootstrap V3.3.2 layout built on HTML5 Css3. You can use this for any purpose.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-sm-6 hotel-info">
+                            <div class="prod-item">
+                                <a href="" class="block">
+                                    <div class="info-top">
+                                        <img src="images/img-prod1.png" alt="">
+                                    </div>
+                                    <div class="info-bottom">
+                                        <h4>Humidity Test Chambers</h4>
+                                        <div class="word-wrap-line5">Awesome responsive template is provided by templatemo website.This is Bootstrap V3.3.2 layout built on HTML5 Css3. You can use this for any purpose.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="information-grid five-star wow prod-item-wrap hide">
+                        <div class="col-md-3 col-lg-3 col-sm-6 hotel-info">
+                            <div class="prod-item">
+                                <a href="" class="block">
+                                    <div class="info-top">
+                                        <img src="images/img-prod1.png" alt="">
+                                    </div>
+                                    <div class="info-bottom">
+                                        <h4>Humidity Test Chambers</h4>
+                                        <div class="word-wrap-line5">Awesome responsive template is provided by templatemo website.This is Bootstrap V3.3.2 layout built on HTML5 Css3. You can use this for any purpose.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-sm-6 hotel-info">
+                            <div class="prod-item">
+                                <a href="" class="block">
+                                    <div class="info-top">
+                                        <img src="images/img-prod1.png" alt="">
+                                    </div>
+                                    <div class="info-bottom">
+                                        <h4>Humidity Test Chambers</h4>
+                                        <div class="word-wrap-line5">Awesome responsive template is provided by templatemo website.This is Bootstrap V3.3.2 layout built on HTML5 Css3. You can use this for any purpose.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-sm-6 hotel-info">
+                            <div class="prod-item">
+                                <a href="" class="block">
+                                    <div class="info-top">
+                                        <img src="images/img-prod1.png" alt="">
+                                    </div>
+                                    <div class="info-bottom">
+                                        <h4>Humidity Test Chambers</h4>
+                                        <div class="word-wrap-line5">Awesome responsive template is provided by templatemo website.This is Bootstrap V3.3.2 layout built on HTML5 Css3. You can use this for any purpose.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-sm-6 hotel-info">
+                            <div class="prod-item">
+                                <a href="" class="block">
+                                    <div class="info-top">
+                                        <img src="images/img-prod1.png" alt="">
+                                    </div>
+                                    <div class="info-bottom">
+                                        <h4>Humidity Test Chambers</h4>
+                                        <div class="word-wrap-line5">Awesome responsive template is provided by templatemo website.This is Bootstrap V3.3.2 layout built on HTML5 Css3. You can use this for any purpose.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-sm-6 hotel-info">
+                            <div class="prod-item">
+                                <a href="" class="block">
+                                    <div class="info-top">
+                                        <img src="images/img-prod1.png" alt="">
+                                    </div>
+                                    <div class="info-bottom">
+                                        <h4>Humidity Test Chambers</h4>
+                                        <div class="word-wrap-line5">Awesome responsive template is provided by templatemo website.This is Bootstrap V3.3.2 layout built on HTML5 Css3. You can use this for any purpose.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-sm-6 hotel-info">
+                            <div class="prod-item">
+                                <a href="" class="block">
+                                    <div class="info-top">
+                                        <img src="images/img-prod1.png" alt="">
+                                    </div>
+                                    <div class="info-bottom">
+                                        <h4>Humidity Test Chambers</h4>
+                                        <div class="word-wrap-line5">Awesome responsive template is provided by templatemo website.This is Bootstrap V3.3.2 layout built on HTML5 Css3. You can use this for any purpose.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="information-grid five-star wow prod-item-wrap hide">
+                        <div class="col-md-3 col-lg-3 col-sm-6 hotel-info">
+                            <div class="prod-item">
+                                <a href="" class="block">
+                                    <div class="info-top">
+                                        <img src="images/img-prod1.png" alt="">
+                                    </div>
+                                    <div class="info-bottom">
+                                        <h4>Humidity Test Chambers</h4>
+                                        <div class="word-wrap-line5">Awesome responsive template is provided by templatemo website.This is Bootstrap V3.3.2 layout built on HTML5 Css3. You can use this for any purpose.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-sm-6 hotel-info">
+                            <div class="prod-item">
+                                <a href="" class="block">
+                                    <div class="info-top">
+                                        <img src="images/img-prod1.png" alt="">
+                                    </div>
+                                    <div class="info-bottom">
+                                        <h4>Humidity Test Chambers</h4>
+                                        <div class="word-wrap-line5">Awesome responsive template is provided by templatemo website.This is Bootstrap V3.3.2 layout built on HTML5 Css3. You can use this for any purpose.</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                    <div class="text-center"><a href="" class="btn-link-more btn-top">MORE</a></div>
+                </div>
+            </div>
+        </div>
+        <!--product end here-->
+        <!--footer start here-->
+        <div class="footer">
+            <div class="container">
+                <div class="gallery-top">
+                    <h1><span class="color-fff">CONTACT</span> US</h1>
+                </div>
+                <div class="footer-main">
+                    <div class="col-md-6 ftr-grid wow zoomIn" data-wow-delay="0.3s">
+                        <form>
+                            <div class="single-grid wow fadeInLeft animated" data-wow-delay=".5s">
+                                <p class="label-name">NAME</p>
+                                <input type="text">
+                                <p class="label-name">EMAIL</p>
+                                <input type="text">
+                                <p class="label-name">MESSAGE</p>
+                                <textarea></textarea>
+                                <p>
+                                    <input type="submit" value="Leaving a message">
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 ftr-grid ftr-mid wow zoomIn" data-wow-delay="0.3s">
+                        <h3>OUR ADDRESS</h3>
+                        <p class="p1">Xian Branch:No.108.South Zhuque Street. Xi`an NingBo Branch:Tower C,Century Square,South Liberation Road,Ningbo</p>
+                        <p class="p1"><span class="icon-foot-pub"><i class="iconfont">&#x2301;</i></span>0086-29-85451431</p>
+                        <p class="p1"><span class="icon-foot-pub"><i class="iconfont">&#x2305;</i></span>info@ace-climatic.com</p>
+                        <p class="p1 p2"><span class="title">WE ARE SOCIAL</span>
+                        <span class="icon-foot-pub"><i class="iconfont">&#x2302;</i></span>
+                        <span class="icon-foot-pub"><i class="iconfont">&#x2304;</i></span>
+                        <span class="icon-foot-pub"><i class="iconfont">&#x2307;</i></span></p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <!--footer end here-->
+        <!--copy rights start here-->
+        <div class="copy-right">
+            <div class="container">
+                <div class="copy-rights-main wow zoomIn" data-wow-delay="0.3s">
+                    <p>Copyright &copy; 2018 ACE TECHNOLOGY. All rights reserved.Liaoning ICP 11007858-3. Xi`an Shan Xi 11010802016198</p>
+                </div>
+            </div>
+        </div>
+        <!--online service start-->
+        <div class="online-service">
+            <i class="iconfont icon-skype">&#x2308;</i>
+            <span>Online Service</span>
+        </div>
+        <!--online service end-->
+        <script type="text/javascript">
+        $(function(){
+            $(".prod-nav").on("click","li",function(e){
+                e.preventDefault();
+                var index = $(this).index();
+                $(this).addClass("active").siblings().removeClass("active");
+                $(".information-main").find(".prod-item-wrap").addClass('hide');
+                $(".information-main").find(".prod-item-wrap").eq(index).removeClass("hide");
+                $(".information-main").find(".prod-item-wrap").eq(index).css("visibility","show");
+            })
+        })
+        </script>
+    </body>
+</html>
